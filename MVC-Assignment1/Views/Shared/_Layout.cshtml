@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - My ASP.NET Core App</title>
+    <link rel="stylesheet" href="~/css/layout.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/First/Index1">First - Index1</a></li>
+                <li><a href="/Second/Index1">Second - Index1</a></li>
+                <li><a href="/First/Index2">First - Index2</a></li>
+                <li><a href="/Second/Index2">Second - Index2</a></li>
+                <li><a href="/First/Index3">First - Index3</a></li>
+                <li><a href="/Second/Index3">Second - Index3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main role="main" class="container">
+        @RenderBody()
+    </main>
+    <footer>
+        <p>&copy; 2024 - My ASP.NET Core App</p>
+    </footer>
+    <script src="~/js/site.js"></script>
+</body>
+</html>
